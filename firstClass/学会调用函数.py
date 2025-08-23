@@ -6,3 +6,13 @@ def fun1():
     fun2()
 
 fun1()
+
+#nonlocal
+def fun3():
+    x = 5
+    def fun4():
+        nonlocal x
+        x *= x
+        return x
+    return fun4()
+print(fun3())
