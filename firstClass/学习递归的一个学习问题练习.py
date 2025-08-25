@@ -1,15 +1,3 @@
-def factorial(n):
-    result = n
-    for i in range(1, n):
-        result *= i
-    return result
-
-number = int(input('请输入一个整数'))
-result = factorial(number)
-print(factorial(number))
-print("%d 的阶层是：%d" % (number, result))
-
-
 # 课间练习:假设我们需要求出经历了20个月后，总共有多少对小兔崽子?(选代 vs 递归)
 def fab(n):
     n1 = 1
