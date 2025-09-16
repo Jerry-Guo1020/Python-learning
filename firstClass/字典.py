@@ -29,3 +29,11 @@ dict4 = {}
 print(dict4.fromkeys((1, 2, 3)))    # 这个一开始是空的 是因为我还没有加入东西进去
 print(dict4.fromkeys((1, 2, 3), 'Number'))  # 给这三个内容的类型进行定义？
 print(dict4.fromkeys((1, 2, 3), ('one', 'two', 'three')))
+
+
+
+
+# 连续的东西
+dict5 = {}
+dict5 = dict5.fromkeys(range(32), "给你点赞")
+print(dict5)
